@@ -1,0 +1,247 @@
+*{
+    /* border: 2px solid red; */
+}
+body{
+    overflow-x: hidden;
+}
+#nav1{
+    height: 90px;
+    width: 1500px;
+    background: rgba(0, 0, 0, 0.12);
+    position: fixed;
+    margin-top: -20px;
+}
+#dot{
+    height: 8px;
+    width: 8px;
+    border-radius: 5px;
+    background: #C77BF4;
+    position: relative;
+    bottom: 20px;
+    left: 975px;
+}
+.a1{
+    text-decoration: none;
+    position: relative;
+    left: 700px;
+    bottom: 30px;
+    padding: 20px;
+    color: white;
+    /* font-size: 18px; */
+    font-weight: 700;
+    display: inline;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.a1:hover{
+    color: rgb(158, 84, 228);
+}
+h3{
+   text-align: center;
+   font-size: 80px;
+   padding-top: 360px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.bg-container{
+    background-image: url("https://knight-bite.com/res/index/app-link-background.svg");
+    height:110vh;
+    width:100%;
+    background-size: cover;
+    margin-top: -68px;
+    /* margin: 0px; */
+}
+button{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    top: -15px;
+    left: 620px;
+    border-color: transparent;
+    cursor: pointer;
+}
+#p1{
+    position: relative;
+    left: 700px;
+    top: -10px;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+}
+#chat{
+    color: #C77BF4;
+    position: fixed;
+    left: 1250px ;
+    bottom: 10px;
+    cursor: pointer;
+}
+.img1{
+    position:relative;
+    left: 500px;
+    padding: 10px;
+    top: -20px;
+    cursor: pointer;
+}
+.img1:hover{
+    width: 190px;
+    transition: 3s;
+}
+h2{
+    font-size: 60px;
+    margin-left: 600px;
+    color: #424242;
+    font-weight: 700;
+    font-family: "Nunito";
+}
+.img{
+    padding: 30px;
+    height: 150px;
+    margin-left: 50px;
+}
+.p1{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: -6px;
+
+}
+#div3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#sec1{
+    background-image: url(https://knight-bite.com/res/index/banner-1.webp);
+    height: 100vh;
+    width: 100%;
+}
+.h2{
+    color: white;
+    position:relative;
+    right: -200px;
+    top: 400px;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 900;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 500px;
+}
+#sec2{
+    background-image: url(https://knight-bite.com/res/index/banner-2.webp);
+    height: 118vh;
+    width: 100%;
+    margin-top: -80px;
+}
+#b-container{
+    top: 560px;
+    height: 60px;
+    width: 230px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    color: #424242;
+    font-size: 20px;
+    font-family: "Nunito";
+}
+#footer-heading{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: rgb(43, 39, 39);
+    font-size: 50px;
+}
+.bgimg2-heading{
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 90px; ;
+    color: white;
+    height: 100%;
+    font-family:monospace;
+}
+.div-container-list{
+    display: flex;
+    height: 280px;
+    width: 100%;
+    position: relative;
+    left: 90px;
+}
+.Inner-d1-h2{
+    margin-left: 70px;
+    color: #424242;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.d1{
+    width: 25%;
+}
+a{
+    text-decoration: none;
+}
+.Inner1-d1{
+    display: flex;
+    align-items: center;
+}
+.Inner-d1-img{
+    margin-left:70px;
+    margin-top: 30px;
+}
+.Inner1-d1-span{
+    margin-left:20px;
+    margin-top: 30px;
+}
+#inner-d2{
+    margin-top: 20px;
+    width: 70%;
+}
+#inner-d2-p{
+    line-height: 2em;
+}
+#input-d2{
+    border: 2px solid black;
+    padding-left: 40px;
+    width: 400px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 50px;
+    background: none;
+}
+#button-d2{
+    position: relative;
+    right: 700px;
+    top: 10px;
+}
+#l2{
+    width: 70%;
+    margin-left: 15%;
+}
+.inner-inner-a-d2{
+    margin-left: 30px;
+}
+#inner-inner-d2{
+    display: flex;
+    align-items: center;
+}
+.inner-inner-img-d2{
+    margin-left: 5%;
+}
+#div-img{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF5672 ;
+    color: white;
+}

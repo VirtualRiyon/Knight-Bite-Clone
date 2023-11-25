@@ -1,0 +1,71 @@
+.bg-img2{
+    background-image: url("https://knight-bite.com/res/menu/banner.webp");
+    height: 100vh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+}
+#dot{
+    height: 8px;
+    width: 8px;
+    border-radius: 5px;
+    background: #C77BF4;
+    position: relative;
+    bottom: 20px;
+    left: 1165px;
+}
+#grid-items{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    height: 400px;
+    row-gap: 150px;
+    column-gap: 60px;
+    margin-left: 150px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+#grid-div1:hover{
+    opacity: 0.6;
+}
+#grid-div2:hover{
+
+}
+#grid-div3:hover{
+
+}
+#grid-div4:hover{
+
+}
+#grid-div5:hover{
+
+}
+#grid-div6:hover{
+
+}
+
+#drinks{
+    position: relative;
+    top: -60px;
+}
+#dr-img{
+    position: relative;
+    top: -30px;
+}
+#plus{
+    position: relative;
+    top: -60px;
+}
+#foot-border{
+    height: 50px;
+    background-color: #FF5672;
+    margin-top:-20px;
+    box-shadow: -5px -5px 19px rgba(0, 0, 0, 0.23);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700px;
+}
